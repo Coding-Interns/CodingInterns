@@ -40,10 +40,6 @@ function closeModal() {
     document.body.style.overflow = '';
 }
 
-loginBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    openModal();
-});
 
 closeBtn.addEventListener('click', closeModal);
 
@@ -83,12 +79,7 @@ document.querySelectorAll('.btn-card').forEach(button => {
     });
 });
 
-// Form submission
-document.querySelector('.login-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Login functionality would be implemented here!');
-    closeModal();
-});
+
 
 // Add scroll effect to navbar
 let lastScrollY = window.scrollY;
@@ -177,4 +168,5 @@ if (isTouchDevice()) {
     document.body.classList.add('touch-device');
 
 }
+
 
