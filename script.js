@@ -78,8 +78,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Apply button functionality
 document.querySelectorAll('.btn-card').forEach(button => {
     button.addEventListener('click', function() {
-        const internshipTitle = this.closest('.internship-card').querySelector('h3').textContent;
-        alert(`Thank you for your interest in ${internshipTitle}! This is a demo - in a real application, you would be redirected to an application form.`);
+        // Redirect to your website when button is clicked
+        window.location.href = "https://coding-interns.github.io/CodingInterns/";
     });
 });
 
@@ -175,4 +175,5 @@ function isTouchDevice() {
 
 if (isTouchDevice()) {
     document.body.classList.add('touch-device');
+
 }
