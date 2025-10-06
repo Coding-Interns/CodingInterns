@@ -79,7 +79,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 document.querySelectorAll('.btn-card').forEach(button => {
     button.addEventListener('click', function() {
         // Redirect to your website when button is clicked
-        window.location.href = "https://coding-interns.github.io/CodingInterns/";
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSc1x1cOvEe8DhlhBeArOTuiJMqoZSaaueU0CiHG-HoKTl3X7w/viewform";
     });
 });
 
@@ -177,3 +177,4 @@ if (isTouchDevice()) {
     document.body.classList.add('touch-device');
 
 }
+
